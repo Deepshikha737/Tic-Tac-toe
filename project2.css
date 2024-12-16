@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+    
+}
+
+body{
+    background-color: #219C90;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.container{
+    height: 55vh;
+    max-width:400px ;
+    width: 50vw;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.game{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.4rem;
+    justify-content: center;
+   
+   
+}
+    
+.box{
+    height: 18vh;
+   
+    width: 12vw;
+    max-width: 100px;
+  
+    background-color:#FFC700;
+    /* margin: 0.2rem 0.1rem; */
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+    color: aliceblue;
+    font-weight: 500;
+    /* padding: 1rem; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+.box:hover{
+    background-color: #FFF455;
+}
+.reset{
+    padding: 0.5rem 0.7rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 1; 
+    background-color: #EE4E4E;
+    border: none;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+    
+    
+}
+#new{
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 1; 
+    background-color: #EE4E4E;
+    border: none;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    letter-spacing: 0.1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#msg{
+    color: aliceblue;
+    font-size: 2.5rem;
+
+}
+.msg-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.hide{
+    display: none;
+}
